@@ -1,0 +1,97 @@
+/* Colors and Fonts */
+
+body{
+	background-color: #93B7BE;
+	color: #27474E;
+	font-family: optima, monospace; 
+	font-size: 16px;
+	font-weight: lighter;
+	text-align: center;
+}
+h1, h2{
+	color: #4C061D;
+}
+h1{
+	font-size: 35px;
+	font-family: optima;
+}
+h2{
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	color: #4C061D;
+	transition: color 0.5s ease;
+}
+a:hover{
+	color:#E5EBEA;
+	font-weight: bold;
+}
+
+p {
+	margin: 20px;
+}
+
+li {
+	list-style: none;
+}
+
+
+/* Design with Class */
+
+.container{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.btn-orange{
+	background-color: #D68C45;
+	padding: 12px 15px;
+	border-radius: 5px;
+}
+
+.card-design{
+	background: #E5EBEA;
+	padding: 10px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 15px 25px rgba(50,50,80,0.3);
+	margin: 20px;
+}
+
+.list-inline {
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+}
+
+.list-inline i {
+	font-size: 32px;
+	color: #4C061D;
+}
+
+
+/* Design with ID */
+
+#img-circle{
+	border-radius: 50%;
+	box-shadow: 0 7px 17px rgba(50,50,80,0.3);
+}
+
+#icon-purple:hover{
+	color:#D68C45;
+}
+
+
+
+
+
+
+
+
+
+
+
